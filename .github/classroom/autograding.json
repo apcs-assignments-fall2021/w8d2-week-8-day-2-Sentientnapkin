@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Simplify",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testSimplify ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Add",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testStaticAdd ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Subtract",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testStaticSubtract ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Multiply",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testStaticMultiply ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Divide",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testStaticDivide",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
